@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the mouse to go to a new page and read more about the topic:</p>
+
+<!-- Main image -->
+<img src="https://img.freepik.com/premium-vector/laptop-phone-computer-mouse-mockup_389832-1106.jpg" 
+     alt="Workplace" 
+     usemap="#workmap" 
+     width="626" height="521">
+
+<!-- Image map -->
+<map name="workmap">
+  <!-- Laptop -->
+  <area shape="rect" coords="157,48,465,349" target="_blank" alt="Laptop" href="https://en.wikipedia.org/wiki/Laptop">
+  
+  <!-- Mobile Phone -->
+  <area shape="rect" coords="47,199,106,319" target="_blank" alt="Phone" href="https://en.wikipedia.org/wiki/Mobile_phone">
+  
+  <!-- Computer Mouse -->
+  <area shape="rect" coords="523,234,573,316" target="_blank" alt="Mouse" href="https://en.wikipedia.org/wiki/Computer_mouse">
+</map>
+
+</body>
+</html>
