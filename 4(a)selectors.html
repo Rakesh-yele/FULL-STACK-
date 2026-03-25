@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p { color: blue; }
+#id1 { background: yellow; }
+.cls1 { font-weight: bold; }
+h1, p { border: 1px solid red; }
+* { margin: 10px; }
+div p { color: green; }
+ul > li { text-decoration: underline; }
+h2 + p { background: cyan; }
+h3 ~ p { font-size: 20px; }
+a:hover { color: red; }
+input:focus { border: 2px solid purple; }
+p::first-line { font-weight: bold; }
+[type="text"] { width: 200px; }
+</style>
+</head>
+<body>
+<h1>Simple Selectors</h1>
+<p>Element selector</p>
+<p id="id1">ID selector</p>
+<p class="cls1">Class selector</p>
+<h1>Group selector</h1>
+
+<div><p>Descendant selector</p></div>
+<ul><li>Child selector</li></ul>
+<h2>Adjacent sibling</h2><p>Adjacent sibling selector</p>
+<h3>General sibling</h3><p>General sibling selector</p>
+<a href="#">Pseudo-class :hover</a>
+<input type="text" placeholder="Pseudo-class :focus">
+<p>Pseudo-element ::first-line</p>
+[type="text"] Attribute selector
+</body>
+</html>
