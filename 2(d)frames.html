@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Iframes</title>
+<style>
+  .frames { display:flex; gap:5px; }
+  iframe { width:33%; height:300px; border:1px solid #ccc; }
+</style>
+</head>
+<body>
+
+<div class="frames">
+  <!-- First: Image -->
+  <iframe srcdoc='<img src="https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_640.jpg" alt="sunrise" style="width:100%;height:100%;">'></iframe>
+  
+  <!-- Second: Paragraph -->
+  <iframe srcdoc='<p>Second frame: This paragraph explains iframes.<br>Iframes embed content inline.<br>Fixed size with CSS.</p>'></iframe>
+  
+  <!-- Third: Hyperlink -->
+  <iframe srcdoc='<p><a href="https://w3schools.com" target="_blank">HTML Tutorial</a></p>'></iframe>
+</div>
+
+<p>First frame [image], second frame [paragraph], third frame [hyperlink]</p>
+
+</body>
+</html>
